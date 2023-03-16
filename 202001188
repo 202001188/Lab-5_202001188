@@ -1,0 +1,34 @@
+# Lab-5_202001188
+                                                               Software Engineering 
+                                                                     Lab 5
+
+**Name:** Sanghvi Trusha <br>
+**Student ID:** 202001188
+
+I chose the tool pylint in python for static analysis of python projects.
+Used a github repository https://github.com/D3FaltXD/Python-MiniProjects-LPU2022.git
+
+Pylint is a static code analyser . It analyses the code without actually running it. It checks for errors, enforces a coding standard and can make suggestions.
+
+Install pylint using the _pip install pylint_ command in command prompt.
+Took sample codes from python files
+Run the command _py -m pylint <file_name>.py_ in command prompt 
+
+File 1: (Project-1.py)
+The errors generated are 
+  1. identation errors
+  2. invalid-name (does not follow the naming conventions)
+  3. redfefined-outer-name (redefine a name that is defined outside a function), missing-final-newline etc.
+  4. missing-function-docstring (when a python function or method misses a docstring)
+  5. missing-final-newline (when python file does not end with a newline character)
+
+![image](https://user-images.githubusercontent.com/75675458/225574823-3d252831-9f8a-4f58-bc81-edd50323a08c.png)
+
+
+File 2: (Project-2.py)
+The errors generated are 
+  1. superfluous-parens (Unnecessary paranthesis)
+  2. invalid-name (does not follow the naming conventions)
+  3. wildcard-import (When all of the content is imported using wildcard-import statement) etc.
+
+![image](https://user-images.githubusercontent.com/75675458/225575068-08ae82c2-ec33-4dec-9bb9-4da8e7033d7a.png)
